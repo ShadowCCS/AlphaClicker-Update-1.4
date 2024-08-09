@@ -21,7 +21,7 @@ The theme system has been completely revamped. The new dynamic theme manager now
 
 
 ### 2. Mouse Click Holding Option
-You can now select "Hold Mouse Click" from the dropdown menu of click types. This feature allows for continuous clicking while holding down the mouse button.
+You can now select "Hold Mouse Click" from the dropdown menu of click types.
 
 ![Mouse Click Holding](.github/Images/HoldOption.png)
 

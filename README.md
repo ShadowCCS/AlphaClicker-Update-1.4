@@ -30,7 +30,7 @@ The settings menu has been significantly improved. The new system allows you to 
 
 ![Settings Menu](.github/Images/SettingsMenu.png)
 
-### 4. Process Selecting (WIP, COMMING SOON)
+### 4. Process Selecting (COMMING SOON, if i can figure it out)
 A new feature in the settings menu, "Process Selecting," allows you to enable clicking only within a specific application. This means you can toggle clicking on, minimize the application, and use your computer normally without interruption.
 
 ![Process Selecting](.github/Images/ProcessSelection.png)

@@ -7,7 +7,7 @@ Welcome to Alpha Clicker 1.4! This update brings a host of exciting new features
 ## New Features
 
 ### 1. New Theme System
-The theme system has been completely revamped. The new dynamic theme manager now allows for easy integration of user-created themes, along with four stock themes: Light, Dark, Nature, and Undecided. 
+The theme system has been completely revamped. The new dynamic theme manager now allows for easy integration of user-created themes, along with five stock themes: Light, Dark, Nature, Earth and Glass. 
 
 ![Themes Selction](.github/Images/Themes.png)
 
@@ -30,18 +30,15 @@ The settings menu has been significantly improved. The new system allows you to 
 
 ![Settings Menu](.github/Images/SettingsMenu.png)
 
-### 4. Process Selecting
+### 4. Process Selecting (WIP, COMMING SOON)
 A new feature in the settings menu, "Process Selecting," allows you to enable clicking only within a specific application. This means you can toggle clicking on, minimize the application, and use your computer normally without interruption.
 
 ![Process Selecting](.github/Images/ProcessSelection.png)
 
 ## Additional Changes
 
-- **Visual Feedback:** Minimal visual changes have been made to enhance feedback on whether clicking is active.
-- **Improved Keybind Selection:** The settings revamp includes an improved keybind selection for a better user experience.
-
-## More can potentially be added before release
-I have no idea what i might end up doing maybe i get bored, maybe not, the features on this list at least will be released in the coming days, just need to clean up the code a little first.
+- **Visual Feedback:** Minimal visual changes have been made to enhance feedback on whether clicking is active, as well as showing coordinates at click.
+- **Improved Keybind Selection:** The settings revamp includes an improved keybind selection for a better user experience with a fix for special keys.
 
 ## Installation
 

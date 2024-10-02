@@ -1,0 +1,105 @@
+﻿<Window x:Class="AlphaClicker.AHKManage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AlphaClicker"
+        mc:Ignorable="d"
+        ResizeMode="CanMinimize"
+        WindowStyle="None"
+        Title="Alpha Clicker Settings"
+        Height="246" Width="400"
+        Background="{x:Null}"
+        AllowsTransparency="True"
+        MouseLeftButtonDown="AHK_MouseLeftButtonDown">
+
+    <Border Margin="10"
+            CornerRadius="15" 
+            Background="{DynamicResource BackgroundColor}" 
+            BorderBrush="Gray" 
+            BorderThickness="0.3">
+
+        <Border.Effect>
+            <DropShadowEffect BlurRadius="15" Direction="-90"
+                              RenderingBias="Quality" ShadowDepth="2"/>
+        </Border.Effect>
+
+        <Grid HorizontalAlignment="Stretch" Height="Auto" Margin="0,0,0,0" VerticalAlignment="Stretch" Width="Auto">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Label x:Name="AHKManageLabel" Content="AHK Manage"
+                   FontSize="15"
+                   Foreground="{DynamicResource TextColor}"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center" 
+                   Margin="0,0,0,0"/>
+
+            <!-- X button -->
+            <Ellipse x:Name="closeButton" 
+                    Fill="{DynamicResource CloseButton}"
+                    Style="{DynamicResource GrowOnHover}"
+                    Grid.Row="0"
+                    Height="20" Width="20"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Center"
+                    Margin="0,0,10,0"
+                    MouseLeftButtonDown="closeButton_MouseLeftButtonDown">
+
+                <Ellipse.RenderTransform>
+                    <ScaleTransform ScaleX="1.0" ScaleY="1.0" />
+                </Ellipse.RenderTransform>
+            </Ellipse>
+
+            <Grid Grid.Row="1" HorizontalAlignment="Stretch" Height="Auto" Margin="0,0,0,0" VerticalAlignment="Stretch" Width="Auto">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="30"/>
+                    <RowDefinition Height="35"/>
+                    <RowDefinition Height="107"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <!-- Label to show current AHK path -->
+                <Label x:Name="CurrentPathLabel"
+                       Content="Current AHK Path: [Not Set]"
+                       FontSize="12"
+                       VerticalAlignment="Center"
+                       HorizontalAlignment="Center" Height="26" Width="359"/>
+
+                <!-- Button to open file selection window -->
+                <Button x:Name="BrowseButton"
+                        Content="Browse"
+                        Background="{DynamicResource LowerButtons}"
+                        Grid.Row="1"
+                        VerticalAlignment="Center"
+                        HorizontalAlignment="Left"
+                        Margin="10,0,0,0"
+                        Width="75"
+                        Height="24"
+                        Click="BrowseButton_Click"/>
+
+                <!-- Button to install AHK -->
+                <Button x:Name="InstallButton"
+                        Content="Install AHK"
+                        Background="{DynamicResource LowerButtons}"
+                        Grid.Row="1"
+                        VerticalAlignment="Center"
+                        HorizontalAlignment="Left"
+                        Margin="269,0,0,0"
+                        Width="100"
+                        Height="24"
+                        Click="InstallButton_Click"/>
+                <TextBlock HorizontalAlignment="Center"
+                           Margin="0,17,0,0"
+                           Grid.Row="2"
+                           TextWrapping="Wrap"
+                           Text="To be able to use the (SelectProcess) feature AHK needs to be installed. AutoHotKey is a open source scripting language that makes this process a lot easier. You can read about it here (https://www.autohotkey.com) After installation you need to select it with the browse button."
+                           VerticalAlignment="Top"
+                           Height="80"
+                           Width="359"/>
+            </Grid>
+        </Grid>
+    </Border>
+</Window>

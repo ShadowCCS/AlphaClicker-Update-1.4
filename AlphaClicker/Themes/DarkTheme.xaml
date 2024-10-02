@@ -1,0 +1,23 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <SolidColorBrush x:Key="TitleColor"            Color="#b6b5b9" />
+    <SolidColorBrush x:Key="BackgroundColor"       Color="#231e2a" />
+    <SolidColorBrush x:Key="TextColor"             Color="#b6b5b9" />
+    <SolidColorBrush x:Key="ButtonTextColor"       Color="#f6f6f6" />
+    <SolidColorBrush x:Key="TextBoxBackground"     Color="#413d47" />
+    <SolidColorBrush x:Key="TextBoxBackground_GetButton" Color="#413d47" />
+    <SolidColorBrush x:Key="LowerButtons"          Color="#332e39" />
+    <SolidColorBrush x:Key="StartButton" Color="#FF0E679E"/>
+    <SolidColorBrush x:Key="StopButton" Color="#FFFE4E44"/>
+    <SolidColorBrush x:Key="MinimizeButton"        Color="#ffbd33" />
+    <SolidColorBrush x:Key="CloseButton"           Color="#ff605c" />
+
+    <SolidColorBrush x:Key="TextBoxDropDown"       Color="#332e39" />
+
+    <SolidColorBrush x:Key="CircularSelectionInner">#3b6cec</SolidColorBrush>
+    <SolidColorBrush x:Key="CircularSelection">#3b6cec</SolidColorBrush>
+
+    <SolidColorBrush x:Key="CheckboxFill" Color="#3b6cec"/>
+
+</ResourceDictionary>

@@ -1,0 +1,57 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!--
+        Template Theme
+        This is a base template theme for the application.
+        Users can modify this file to create their own custom themes.
+        
+        Please read the README.md for further instructions
+    -->
+
+   <!-- Title - Your Color Here -->
+    <SolidColorBrush x:Key="TitleColor">#YourColorHere</SolidColorBrush>
+
+    <!-- Background - Your Color Here -->
+    <SolidColorBrush x:Key="BackgroundColor">#YourColorHere</SolidColorBrush>
+
+    <!-- Text - Your Color Here -->
+    <SolidColorBrush x:Key="TextColor">#YourColorHere</SolidColorBrush>
+
+    <!-- Button Text - Your Color Here -->
+    <SolidColorBrush x:Key="ButtonTextColor">#YourColorHere</SolidColorBrush>
+
+    <!-- TextBox Background - Your Color Here -->
+    <SolidColorBrush x:Key="TextBoxBackground">#YourColorHere</SolidColorBrush>
+
+    <!-- TextBox Background (GetButton) - Your Color Here -->
+    <SolidColorBrush x:Key="TextBoxBackground_GetButton">#YourColorHere</SolidColorBrush>
+
+    <!-- Lower Buttons - Your Color Here -->
+    <SolidColorBrush x:Key="LowerButtons">#YourColorHere</SolidColorBrush>
+
+    <!-- Start Button - Your Color Here -->
+    <SolidColorBrush x:Key="StartButton">#YourColorHere</SolidColorBrush>
+
+    <!-- Stop Button - Your Color Here -->
+    <SolidColorBrush x:Key="StopButton">#YourColorHere</SolidColorBrush>
+
+    <!-- Minimize Button - Your Color Here -->
+    <SolidColorBrush x:Key="MinimizeButton">#YourColorHere</SolidColorBrush>
+
+    <!-- Close Button - Your Color Here -->
+    <SolidColorBrush x:Key="CloseButton">#YourColorHere</SolidColorBrush>
+
+    <!-- TextBox DropDown - Your Color Here -->
+    <SolidColorBrush x:Key="TextBoxDropDown">#YourColorHere</SolidColorBrush>
+
+    <!-- Circular Selection Outer - Your Color Here -->
+    <SolidColorBrush x:Key="CircularSelection">#YourColorHere</SolidColorBrush>
+
+    <!-- Circular Selection Inner - Your Color Here -->
+    <SolidColorBrush x:Key="CircularSelectionInner">#YourColorHere</SolidColorBrush>
+
+    <!-- CheckboxFill Background - Your Color Here -->
+    <SolidColorBrush x:Key="CheckboxFill">#YourColorHere</SolidColorBrush>
+
+</ResourceDictionary>

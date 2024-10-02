@@ -1,0 +1,49 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- Title - Deep Forest Green -->
+    <SolidColorBrush x:Key="TitleColor">#355E3B</SolidColorBrush>
+
+    <!-- Background - Soft Moss Green -->
+    <SolidColorBrush x:Key="BackgroundColor">#CAD3C8</SolidColorBrush>
+
+    <!-- Text - Charcoal Gray -->
+    <SolidColorBrush x:Key="TextColor">#3B3B3B</SolidColorBrush>
+
+    <!-- Button Text - Light Ivory -->
+    <SolidColorBrush x:Key="ButtonTextColor">#F9F6EE</SolidColorBrush>
+
+    <!-- TextBox Background - Soft Pebble Gray -->
+    <SolidColorBrush x:Key="TextBoxBackground">#E1E5E4</SolidColorBrush>
+
+    <!-- TextBox Background (GetButton) - Warm Sandstone -->
+    <SolidColorBrush x:Key="TextBoxBackground_GetButton">#B8A394</SolidColorBrush>
+
+    <!-- Lower Buttons - Slate Gray -->
+    <SolidColorBrush x:Key="LowerButtons">#717D7E</SolidColorBrush>
+
+    <!-- Start Button - Gentle Sky Blue -->
+    <SolidColorBrush x:Key="StartButton">#6CA6CD</SolidColorBrush>
+
+    <!-- Stop Button - Warm Clay Red -->
+    <SolidColorBrush x:Key="StopButton">#A0522D</SolidColorBrush>
+
+    <!-- Minimize Button - Muted Amber -->
+    <SolidColorBrush x:Key="MinimizeButton">#DAA520</SolidColorBrush>
+
+    <!-- Close Button - Soft Crimson -->
+    <SolidColorBrush x:Key="CloseButton">#CD5C5C</SolidColorBrush>
+
+    <!-- TextBox DropDown - Light Mist Gray -->
+    <SolidColorBrush x:Key="TextBoxDropDown">#C0C0C0</SolidColorBrush>
+
+    <!-- Circular Selection Outer - Deep Moss Green -->
+    <SolidColorBrush x:Key="CircularSelection">#4A7F6C</SolidColorBrush>
+
+    <!-- Circular Selection Inner - Fresh Evergreen -->
+    <SolidColorBrush x:Key="CircularSelectionInner">#2C6B4F</SolidColorBrush>
+    
+    <!-- CheckboxFill Background - Warm Sandstone -->
+    <SolidColorBrush x:Key="CheckboxFill">#B8A394</SolidColorBrush>
+
+</ResourceDictionary>

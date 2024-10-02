@@ -1,0 +1,49 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- Title - Frosted Black -->
+    <SolidColorBrush x:Key="TitleColor">#B3B3B3</SolidColorBrush> <!-- Light Gray -->
+
+    <!-- Background - Semi-Transparent Charcoal -->
+    <SolidColorBrush x:Key="BackgroundColor">#BF1A1A1A</SolidColorBrush> <!-- Dark Gray with 75% opacity -->
+
+    <!-- Text - Light Gray -->
+    <SolidColorBrush x:Key="TextColor">#EAEAEA</SolidColorBrush> <!-- Light Gray -->
+
+    <!-- Button Text - Bright White -->
+    <SolidColorBrush x:Key="ButtonTextColor">#FFFFFF</SolidColorBrush> <!-- White -->
+
+    <!-- TextBox Background - Frosted Dark Gray -->
+    <SolidColorBrush x:Key="TextBoxBackground">#CC1A1A1A</SolidColorBrush> <!-- Dark gray with some transparency -->
+
+    <!-- TextBox Background (GetButton) - Frosted Dim Gray -->
+    <SolidColorBrush x:Key="TextBoxBackground_GetButton">#D01A1A1A</SolidColorBrush> <!-- Slightly lighter dark gray -->
+
+    <!-- Lower Buttons - Semi-Transparent Dark Slate -->
+    <SolidColorBrush x:Key="LowerButtons">#CC3C3C3C</SolidColorBrush> <!-- Dark slate gray with slight transparency -->
+
+    <!-- Start Button - Deep Blue -->
+    <SolidColorBrush x:Key="StartButton">#007BFF</SolidColorBrush> <!-- Bright blue with no transparency -->
+
+    <!-- Stop Button - Soft Red -->
+    <SolidColorBrush x:Key="StopButton">#FF4C4C</SolidColorBrush> <!-- Soft red -->
+
+    <!-- Minimize Button - Muted Amber -->
+    <SolidColorBrush x:Key="MinimizeButton">#ffbd33</SolidColorBrush> <!-- Muted amber -->
+
+    <!-- Close Button - Dark Crimson -->
+    <SolidColorBrush x:Key="CloseButton">#ff605c</SolidColorBrush> <!-- Dark red -->
+
+    <!-- TextBox DropDown - Frosted Dark Gray -->
+    <SolidColorBrush x:Key="TextBoxDropDown">#CC3C3C3C</SolidColorBrush> <!-- Dark gray with some transparency -->
+
+    <!-- Circular Selection Outer - Soft Teal -->
+    <SolidColorBrush x:Key="CircularSelection">#A7D3D3</SolidColorBrush> <!-- Soft teal -->
+
+    <!-- Circular Selection Inner - Light Cyan -->
+    <SolidColorBrush x:Key="CircularSelectionInner">#D4E7E7</SolidColorBrush> <!-- Light cyan -->
+
+    <!-- CheckboxFill Background - Frosted Dark Gray -->
+    <SolidColorBrush x:Key="CheckboxFill">#CC3C3C3C</SolidColorBrush> <!-- Dark gray with some transparency -->
+
+</ResourceDictionary>
